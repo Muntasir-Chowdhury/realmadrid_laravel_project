@@ -8,7 +8,7 @@
   <table class="table">
   <thead class="thead-dark" >
     <tr>
-      <th scope="col">Member No.  </th>
+      <th scope="col">Member No .  </th>
       <th scope="col"> Member's Name:  </th>
       <th scope="col">Member's Position: </th>
       <th scope="col">Member's Gender: </th>
