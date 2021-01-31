@@ -10,7 +10,7 @@
       @method('PUT')
   <div class="container" style="background-color: #169ad7">
     <br>
-    <h1>Register</h1>
+    <h1>Update</h1>
 
     <p>Please Add The Details Of Your New Player.</p>
     <hr>

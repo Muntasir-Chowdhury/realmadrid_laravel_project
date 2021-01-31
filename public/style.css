@@ -14,3 +14,9 @@
 .nav_img{
 	height: 40px; width: 40px;
 }
+
+
+.header_bold{
+  font-weight: bold;
+   color: black;
+}

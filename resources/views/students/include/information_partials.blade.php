@@ -9,7 +9,9 @@
     </div>
     <div class="col-md">
       <!-- One of three columns -->
-      <h1> Real Madrid C.F. </h1>
+    
+
+      <h1 class="header_bold"> Real Madrid C.F. </h1>
     </div>
 
     <div class="container" style="margin-top: 10px; margin-bottom: 10px;">
@@ -22,11 +24,12 @@
     <div class="navbar-nav">
       
       <a class="nav-item nav-link" href="{{url('index')}}"> Home </a>
-      <a class="nav-item nav-link" href="{{url('trophy')}}"> Clubs Trophy Cabinet </a>
+      <a class="nav-item nav-link" href="{{url('trophy')}}"> Club's Trophy Cabinet </a>
+        <a class="nav-item nav-link" href="{{url('students_list')}}"> Club Players</a>
+      <a class="nav-item nav-link" href="{{url('lecturers_list')}}"> Club Members </a>
       <a class="nav-item nav-link" href="{{url('create')}}"> Add New Player</a>
       <a class="nav-item nav-link" href="{{url('create1')}}"> Add New Club Member </a>
-      <a class="nav-item nav-link" href="{{url('students_list')}}"> Club Players</a>
-      <a class="nav-item nav-link" href="{{url('lecturers_list')}}"> Club Members </a>
+    
       
 
      

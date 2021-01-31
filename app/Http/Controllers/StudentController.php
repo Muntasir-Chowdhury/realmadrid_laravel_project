@@ -26,8 +26,9 @@ class StudentController extends Controller
 
      public function students_list(){
         $students = Student::latest()->paginate(10);
-
-        return view('students.students_list', compact('students'));
+          $found = Student::where('student_id','07')->first();
+          // return $found;
+        return view('students.students_list', compact('students','found'));
     } 
 
 
