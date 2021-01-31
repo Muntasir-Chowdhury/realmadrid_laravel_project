@@ -23,7 +23,7 @@
 
 
   <form action="{{route('students.store')}}" method= "POST"> 
-  		@csrf
+      @csrf
   <div class="container" style="background-color: #169ad7">
     <br>
     <h1>Register</h1>
@@ -57,7 +57,7 @@
                           
                          </select>               
     <hr>
-    <button type="submit" class="registerbtn" style="background-color: #9b0641">Register</button>
+    <button class="btn btn-success" type="submit" class="registerbtn" >Register</button>
     <br>
     <br>
   </div>

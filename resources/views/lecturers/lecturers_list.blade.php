@@ -23,13 +23,13 @@
 			<td>{{$lecturer->faculty}} </td>
       <td>{{$lecturer->gender}} </td>
 			<td>
-				<a href="{{ route('lecturers.edit', $lecturer->id)}}" > Edit </a>	
+				<a class="btn btn-primary" href="{{ route('lecturers.edit', $lecturer->id)}}" > Edit </a>	
 				<form action="{{ route('lecturers.destroy', $lecturer->id)}}" method="POST">
 									
 					@csrf
                     @method('DELETE') 
 
-					<button style="background-color:red"type="submit" > Delete </button>
+					<button class="btn btn-danger" type="submit" > Delete </button>
 				</form>
 			</td>
 		</tr>

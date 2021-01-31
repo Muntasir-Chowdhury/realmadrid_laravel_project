@@ -14,28 +14,29 @@
     </tr>
   </thead>
   <tbody>
-  		@foreach ($students as $student)
-		<tr> 
-			<td>{{$student->student_id}} </td>
-			<td>{{$student->name}} </td>
+    @if($students!=null)
+      @foreach ($students as $student)
+    <tr> 
+      <td>{{$student->student_id}} </td>
+      <td>{{$student->name}} </td>
       <td>{{$student->age}} </td>
-			<td>{{$student->batch}} </td>
-			<td>
-				<form action="{{ route('students.destroy', $student->id)}}" method="POST">
-					<a href="{{ route('students.edit', $student->id)}}" > Edit </a>					
-					@csrf
+      <td>{{$student->batch}} </td>
+      <td>
+        <form action="{{ route('students.destroy', $student->id)}}" method="POST">
+          <a class="btn btn-primary" href="{{ route('students.edit', $student->id)}}" > Edit </a>         
+          @csrf
                     @method('DELETE') 
 
-					<button style="background-color:red"type="submit" > Delete </button>
-				</form>
-			</td>
-		</tr>
-		@endforeach 
+          <button class="btn btn-danger" type="submit" > Delete </button>
+        </form>
+      </td>
+    </tr>
+    @endforeach 
+    @endif
 
   </tbody>
 </table>
 
-    <!-- <h1> {{$found->name}} </h1> -->
 
 
 

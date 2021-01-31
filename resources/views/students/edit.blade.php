@@ -48,7 +48,7 @@
                            
                          </select>
     <hr>
-    <button type="submit" class="registerbtn" style="background-color: #9b0641">Update</button>
+    <button class="btn btn-success" type="submit" class="registerbtn" >Update</button>
     <br>
     <br>
   </div>

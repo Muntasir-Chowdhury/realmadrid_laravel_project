@@ -58,7 +58,7 @@
                     </select>                   
     <hr>
     
-    <button type="submit" style="background-color: #f72807">Update</button>
+    <button class="btn btn-success" type="submit" >Update</button>
     <br>
     <br>
   </div>

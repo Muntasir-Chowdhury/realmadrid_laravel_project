@@ -19,7 +19,7 @@ class CreateLecturers extends Migration
             $table->string('lecturer_name');
             $table->string('faculty');
             $table->string('gender');
-
+        
             $table->timestamps();
         });
     }
