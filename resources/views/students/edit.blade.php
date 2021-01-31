@@ -45,6 +45,7 @@
                            <option value="Right Wing">Right Wing</option>
                            <option value="Left Wing">Left Wing</option>
                            <option value="Center Forward">Center Forward</option>
+                           <option value="Goal Keeper">Goal Keeper</option>
                            
                          </select>
     <hr>

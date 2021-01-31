@@ -26,7 +26,7 @@
       @csrf
   <div class="container" style="background-color: #169ad7">
     <br>
-    <h1>Register</h1>
+    <h1>Add New Player</h1>
 
     <p>Please fill in this form to add new player.</p>
     <hr>
@@ -54,6 +54,7 @@
                            <option value="Right Wing">Right Wing</option>
                            <option value="Left Wing">Left Wing</option>
                            <option value="Center Forward">Center Forward</option>
+                           <option value="Goal Keeper">Goal Keeper</option>
                           
                          </select>               
     <hr>

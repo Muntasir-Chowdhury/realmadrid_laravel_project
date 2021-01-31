@@ -21,7 +21,7 @@
   		@csrf
   <div class="container" style="background-color: #169ad7">
     <br>
-    <h1>Register</h1>
+    <h1>Add New Club Member</h1>
     <p>Please fill in this form to add new club member.</p>
     <hr>
 
