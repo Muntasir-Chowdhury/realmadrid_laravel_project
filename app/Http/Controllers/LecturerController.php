@@ -87,7 +87,15 @@ class LecturerController extends Controller
         
         return view('lecturers.trophy');
     }
+    public function clubmemories(Lecturer $lecturer){
+        
+        return view('lecturers.clubmemories');
+    }
 
+    public function option(Lecturer $lecturer){
+        
+        return view('lecturers.option');
+    }
 
  	public function update(Request $request, Lecturer $lecturer){
  		$request->validate([

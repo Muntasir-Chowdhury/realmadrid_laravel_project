@@ -25,6 +25,7 @@
       
       <a class="nav-item nav-link" href="{{url('index')}}"> Home </a>
       <a class="nav-item nav-link" href="{{url('trophy')}}"> Club's Trophy Cabinet </a>
+      <a class="nav-item nav-link" href="{{url('clubmemories')}}"> Club Memories </a>
         <a class="nav-item nav-link" href="{{url('students_list')}}"> Club Players</a>
       <a class="nav-item nav-link" href="{{url('lecturers_list')}}"> Club Members </a>
       <a class="nav-item nav-link" href="{{url('create')}}"> Add New Player</a>

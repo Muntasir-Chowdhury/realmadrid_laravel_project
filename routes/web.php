@@ -32,6 +32,8 @@ Route::get('edit1', [lecturerController::class,'edit1']);
 
 Route::get('create1', [LecturerController::class,'create1']);
 Route::get('trophy', [LecturerController::class,'trophy']);
+Route::get('clubmemories', [LecturerController::class,'clubmemories']);
+Route::get('option', [LecturerController::class,'option']);
 
 
 

@@ -16,10 +16,12 @@
     </tr>
   </thead>
   <tbody>
+  
+ 
   		@foreach ($lecturers as $lecturer)
 		<tr> 
 			<td>{{$lecturer->lecturer_id}} </td>
-			<td>{{$lecturer->lecturer_name}} </td>
+			<td>{{$lecturer->lecturer_name}}</td>
 			<td>{{$lecturer->faculty}} </td>
       <td>{{$lecturer->gender}} </td>
 			<td>
